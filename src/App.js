@@ -1,16 +1,10 @@
-import "./App.css";
-import Header from "./components/Header/Header";
-import Body from "./components/Body/Body";
-import Footer from "./components/Footer/Footer";
+import React from 'react'
+import Home from './pages/Home/Home'
 
-function App() {
+const App = () => {
   return (
-    <>
-      <Header />
-      <Body />
-      <Footer />
-    </>
-  );
+   <Home />
+  )
 }
 
-export default App;
+export default App
